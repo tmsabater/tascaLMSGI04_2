@@ -1,75 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <questions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="QUESTIONS.xsd">
- <questions>
-  <question id='nom001'>
-		<type>select</type>
-		<text>Quin trimestre vares neixer?</text>
-			<option>primer</option>
-			<option>segon</option>  
-			<option>tercer</option>
-			<option>quart</option>
-        <answer>1</answer><!-- 0, 1, 2, 3 -->
-     </question>
-  <question id='nom002'>
-		<type>select</type>
-		<text>home o dona?</text>
-			<option>home</option>
-			<option>dona</option>
-        <answer>1</answer><!-- 0, 1 -->
-  </question>
-  <question id='nom003'>
-		<type>text</type>
-		<text>1+1?</text>
-        <answer>2</answer><!-- 0 -->
-  </question>
-  <question id='nom004'>
-		<type>text</type>
-		<text>estas estudiant?</text>
-			<answer>si</answer>
-  </question>
-  <question id='nom005'>
-		<type>multiple</type>
-		<text>tens ordinador portatil o sobretaula?</text>
-			<option>portatil</option>
-			<option>sobretaula</option>
-        <answer>1</answer><!-- 0, 1 -->
-  </question>
-  <question id='nom006'>
-		<type>multiple</type>
-		<text>sols llegir llibres o revistes?</text>
-			<option>llibres</option>
-			<option>revistes</option>
-        <answer>1</answer><!-- 0, 1, -->
-  </question>
-  <question id='nom007'>
-		<type>checkbox</type>
-		<text>quins estudis tens?</text>
-			<option>ESO/Batchiller</option>
-			<option>FP</option>
-			<option>Universitaris</option>
-        <answer>1</answer><!-- 0, 1, 2 -->
-  </question>
-  <question id='nom008'>
-		<type>checkbox</type>
-		<text>tens contxe o moto?</text>
-			<option>cotxe</option>
-			<option>moto</option>
-        <answer>1</answer><!-- 0, 1 -->
-  </question>
-  <question id='nom009'>
-		<type>radio</type>
-		<text>tens cotxe o moto?</text>
-			<option>cotxe</option>
-			<option>moto</option>
-			<option>ambdos</option>
-        <answer>1</answer><!-- 0, 1, 2, 3 -->
-  </question>
-  <question id='nom010'>
-		<type>radio</type>
-		<text>estas casat?</text>
-			<option>SI</option>
-			<option>NO</option>
-        <answer>1</answer><!-- 0, 1 -->
-  </question>
-  </questions>
+    <questions>
+        <question id="nom001">
+            <type>select</type>
+            <text>Quin trimestre vares neixer?</text>
+            <option>primer</option>
+            <option>segon</option>
+            <option>tercer</option>
+            <option>quart</option>
+            <answer>1</answer>
+            <!-- 0, 1, 2, 3 -->
+        </question>
+        <question id="nom002">
+            <type>select</type>
+            <text>home o dona?</text>
+            <option>home</option>
+            <option>dona</option>
+            <answer>1</answer>
+            <!-- 0, 1 -->
+        </question>
+        <question id="nom003">
+            <type>text</type>
+            <text>1+1?</text>
+            <answer>2</answer>
+            <!-- 0 -->
+        </question>
+        <question id="nom004">
+            <type>text</type>
+            <text>estas estudiant?</text>
+            <answer>si</answer>
+        </question>
+        <question id="nom005">
+            <type>multiple</type>
+            <text>tens ordinador portatil o sobretaula?</text>
+            <option>portatil</option>
+            <option>sobretaula</option>
+            <answer>1</answer>
+            <!-- 0, 1 -->
+        </question>
+        <question id="nom006">
+            <type>multiple</type>
+            <text>sols llegir llibres o revistes?</text>
+            <option>llibres</option>
+            <option>revistes</option>
+            <answer>1</answer>
+            <!-- 0, 1, -->
+        </question>
+        <question id="nom007">
+            <type>checkbox</type>
+            <text>quins estudis tens?</text>
+            <option>ESO/Batchiller</option>
+            <option>FP</option>
+            <option>Universitaris</option>
+            <answer>1</answer>
+            <!-- 0, 1, 2 -->
+        </question>
+        <question id="nom008">
+            <type>checkbox</type>
+            <text>tens contxe o moto?</text>
+            <option>cotxe</option>
+            <option>moto</option>
+            <answer>1</answer>
+            <!-- 0, 1 -->
+        </question>
+        <question id="nom009">
+            <type>radio</type>
+            <text>tens cotxe o moto?</text>
+            <option>cotxe</option>
+            <option>moto</option>
+            <option>ambdos</option>
+            <answer>1</answer>
+            <!-- 0, 1, 2, 3 -->
+        </question>
+        <question id="nom010">
+            <type>radio</type>
+            <text>estas casat?</text>
+            <option>SI</option>
+            <option>NO</option>
+            <answer>1</answer>
+            <!-- 0, 1 -->
+        </question>
     </questions>
+</questions>
